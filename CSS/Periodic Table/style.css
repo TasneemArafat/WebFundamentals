@@ -1,0 +1,146 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    padding:10px 10px 10px 10px;
+    background-color: rgba(238,238,238,255);
+    width:950px;
+    margin:10px auto;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li {
+    color:red;
+}
+
+header ul li:nth-child(n+2) {
+    margin-right:20px;
+}
+header ul li:nth-child(3) {
+    margin-right:50px;
+}
+
+
+
+.middle {
+    display: flex;
+}
+
+.middle .corner {
+    margin-top:10px;
+}
+
+.middle .corner p{
+    color:red;
+    vertical-align:middle;
+    text-align: center;
+    width:30px;
+    height:30px;
+    padding: 5px;
+    margin-top:5px;
+}
+
+.middle .boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle .boxes p{
+    width:40px;
+    height:40px;
+    text-align: center;
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.middle .boxes p b{
+    font-size: 14px;
+    color:rgba(25,19,162,255);
+}
+.middle .blue{
+    flex:.8;
+    display:flex;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+}
+.middle .blue p{
+    background-color:rgba(104,155,255,255);
+    border:1px solid black;
+    margin:2px;
+}
+
+.middle .pink{
+    flex:4;
+    display:flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+.middle .pink p{
+    background-color:rgba(253,154,152,255);
+    border:1px solid black;
+    margin:2px;
+}
+
+.middle .yellow{
+    flex:2.25;
+    display:flex;
+    flex-flow: row-reverse wrap-reverse;
+    align-items: flex-end;
+    align-content: flex-start;
+    margin:5px 45px 0px 0px;
+    padding: 10px 0px 0px -10px;
+}
+.middle .yellow p{
+    background-color:rgba(254,203,0,255);
+    border:1px solid black;
+    margin:2px;
+}
+
+footer {
+    display: flex;
+    margin-left:28px;
+    margin-top: 30px;
+}
+
+.names p{
+    color:red;
+    height:20px;
+    padding-top:20px;
+    vertical-align: middle;
+}
+
+.names {
+    vertical-align: middle;
+}
+
+footer .boxes p{
+    width:40px;
+    height:40px;
+    text-align: center;
+    font-size: 11px;
+}
+
+footer .green{
+    display:flex;
+    flex-flow: row wrap-reverse;
+    padding-right:100px;
+}
+footer .green p{
+    background-color:rgba(31,202,33,255);
+    border:1px solid black;
+    margin:2px;
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+footer .green p b{
+    font-size: 14px;
+    color:rgba(25,19,162,255);
+}

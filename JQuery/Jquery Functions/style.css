@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container {
+    width:1200px;
+    margin:0px auto;
+    font-family:monospace;
+}
+.first, .second, .third {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn1, .btn2, .btn3 {
+    width:100px;
+    height:20px;
+    margin:30px;
+
+}
+
+.part {
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+}

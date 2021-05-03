@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('img').hover(function(){
+                $(this).attr('src',$(this).attr('alt'));
+            }, function(){
+                $(this).attr('src',$(this).attr('alt2'));
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class=container>
+        <img src="black_bg.jpg" alt="down1.png" alt2="black_bg.jpg">
+        <img src="white_bg.jpg" alt="top1.png" alt2="white_bg.jpg">
+        <img src="black_bg.jpg" alt="down1.png" alt2="black_bg.jpg">
+        <img src="white_bg.jpg" alt="top1.png" alt2="white_bg.jpg">
+    </div>
+</body>
+</html>

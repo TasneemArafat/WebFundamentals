@@ -1,0 +1,23 @@
+ cd desktop
+
+ mkdir test
+
+ touch test/index.html
+
+ touch test/style.css
+
+ touch test/commands.txt
+
+ cd test
+
+ cp index.html index_2.html
+
+ cd ..
+
+ mkdir destination
+
+ mv test/index_2.html destination
+
+ rm test/style.css
+
+ rm -rf destination

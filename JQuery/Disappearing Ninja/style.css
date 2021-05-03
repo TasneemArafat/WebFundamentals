@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+img{
+    border: 2px solid black;
+    margin:10px;
+}
+
+
+.container {
+    margin:10px auto;
+    padding: 10px;
+    width:400px;
+    border:2px solid black;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+button{
+    background-color: rgb(18, 156, 18);
+    margin-left:10px;
+}
+
+h3{
+    margin-left:10px;
+    font-family:monospace;
+}
